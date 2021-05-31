@@ -1,0 +1,391 @@
+*
+{
+    margin: 0;
+   
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    background-color:rgb(179, 179, 179);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(17, 17, 17);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.5);
+}
+.container
+{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.form
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.formLeft{
+    background-color:rgb(212, 211, 211);
+    padding: 40px;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.1);
+}
+.idOlustur
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.inputID
+{
+    width: 80%;
+    color: #333;
+    font-size: 13px;
+}
+.btnID
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border:none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.form1Top
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+.form1TopRight img, .form2TopRight img
+{
+    width: 180px;
+} 
+
+.form2Top
+{
+    display: flex;;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    background-repeat: no-repeat;
+  
+}
+.formRight
+{
+    background-color:rgb(78, 78, 78);
+    color: white;
+    padding: 40px;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(41, 40, 40, 0.3);
+}
+.formContent
+{
+    display: flex;
+}
+.information
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100px;
+}
+.informationItem
+{
+    margin-bottom: 10px;
+}
+.inputs
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.inputs input
+{
+    height: 30px;
+    padding: 5px;
+    border:none;
+    border-radius: 2px;
+    margin:5px 0 10px 0;
+    border:2px solid transparent;
+    
+}
+.inputsRight
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.inputsRight input
+{
+    font-size: 14px;
+    color: white;
+    height: 30px;
+    padding: 5px;
+    border:none;
+    border-radius: 2px;
+    margin:5px 0 10px 0;
+    border:2px solid none; 
+    background-color: rgb(139, 137, 137);
+}
+.inputsRight input:focus
+{
+   color:black;
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+}
+.inputs input:focus
+{
+outline: 0;
+border-color: rgb(82, 81, 81);
+ 
+}
+.button
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.dataIcon{
+    list-style: none;
+    display: flex;
+    
+  
+}
+.dataIcon i
+{
+    cursor: pointer;
+    align-self: center;
+    margin: 0 15px 0 0;
+
+   
+ 
+}
+
+.buttonDuzenle
+{
+display: flex;   
+justify-content: flex-end; 
+
+}
+
+.btn, .btnDuzenle
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border:none;
+    cursor: pointer;
+ 
+}
+
+
+
+.dataBase
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(233, 231, 231);
+
+}
+.dataBaseNav
+{
+    
+    border-radius: 10px 10px 0 0;
+    padding: 20px;  
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    background-color:#e53e2c;
+ 
+}
+.parentList:nth-child(odd)
+{
+    background-color: rgb(255, 255, 255);
+}
+.parentList:nth-child(even)
+{
+    background-color: #fceeec;
+}
+
+.navList
+{
+    display: flex;
+    font-weight: bold;
+    font-family:monospace;
+    font-size: 20px;
+}
+.navList li
+{
+    width: 232px;
+}
+.parentList
+{
+   display: flex;
+  
+
+}
+.inputIDAdded
+{
+  
+    height: 40px;
+   width: 100%;
+    display: flex;
+    align-items: center;
+}
+.data
+{
+    display: flex;
+padding: 10px;;
+width: 300px;
+list-style-type: none;
+color: black;
+}
+.column
+{
+    display: flex;
+}
+
+.title
+{
+    display: flex;
+    align-items: center;
+}
+.deleteItem
+{
+    display: flex;
+    flex-direction: column;
+    font-family: none;
+    font-size: 16px;
+ 
+}
+.deleteAllButton
+{
+    background-color: rgb(97, 96, 96);
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    border:0;
+}
+.deleteAllButton:hover{
+    cursor: pointer;
+    background-color: rgb(3, 117, 224);
+
+
+  
+}
+.deleteButton{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    border:0;
+}
+.deleteButton:hover{
+    cursor: pointer;
+    background-color:rgb(3, 117, 224);
+    
+    
+}
+.inputDelete
+{
+    width: 250px;
+    margin-bottom:10px ;
+    padding: 10px;
+    border:  2px solid #e53e2c;
+    border-radius: 5px;
+    background-color: rgb(230, 228, 228);
+}
+.inputDelete:hover
+{
+    border:2px solid  rgb(0, 162, 255);
+   
+}
+.inputDelete:focus
+{
+    outline: 0;
+    border:2px solid rgb(0, 162, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width:1000px)
+{
+    body {
+display: flex;
+flex-direction: column;
+    };
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .form
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+    }
+    .formLeft{
+        width: 75%;
+        margin-bottom: 30px;
+        
+    }
+    .formRight{
+        width: 75%;
+    }
+    .form1TopRight, .form2TopRight
+    {
+        display: none;
+    }
+
+}
+@media screen and (max-width:650px)
+{
+    .dataBase
+    {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    .dataBaseNav
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .inputDelete
+    {
+        width: 180px;
+    }
+    .data{
+        padding: 5px;
+        font-size: 12px;
+    
+    }
+    
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div class="form1Top">
+        <div class="form1TopLeft"> <img src="img/logo.png" alt=""></div>
+       <div class="form1TopRight"> <img src="img/logo1.png" alt=""></div> 
+   </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+
+<body onload="baslangic()">
+    <nav>
+        <img src="img/logo1.png" alt="">
+    </nav>
+    <div class="container">
+        <div class="form">
+
+            <div class="formLeft">
+                <form action="" class="form1">
+                
+                    <div class="formContent">
+                        <div class="information">
+                            <p class="informationItem">ID</p>
+                            <p class="informationItem">Ad</p>
+                            <p class="informationItem">Soyad</p>
+                            <p class="informationItem">T.C.</p>
+                            <p class="informationItem">Telefon</p>
+                        </div>
+                        <div class="inputs">
+                            <div class="idOlustur">
+                                <p type="text" placeholder="ID *" class="inputID"> * </p>
+                                <button class="btnID" type="text">ID Oluştur</button>
+                            </div>
+                            <input type="text" placeholder="Adınızı Giriniz. *" class="inputAd">
+                            <input type="text" placeholder="Soyadınızı Giriniz. *" class="inputSoyad">
+                            <input type="number" placeholder="TC Giriniz. *" class="inputTc">
+                            <input type="number" placeholder="Telefon Giriniz." class="inputTel">
+                        </div>
+                    </div>
+                    <div class="button">
+                        <p>Lütfen '*' alanları eksiksiz şekilde doldurunuz.</p>
+                        <button class="btn" type="text">Gönder</button>
+                    </div>
+                </form>
+            </div>
+
+             <div class="formRight">
+                <form action="" class="form2">
+                    <div class="form2Top">
+                        <div class="form2TopLeft"> <img src="img/logo.png" alt=""></div>
+                        <div class="form2TopRight"> <img src="img/logo3.png" alt=""></div>
+                    </div>
+                    <div class="formContent">
+                        <div class="information">
+                            <p class="informationItem">ID</p>
+                            <p class="informationItem">Ad</p>
+                            <p class="informationItem">Soyad</p>
+                            <p class="informationItem">T.C.</p>
+                            <p class="informationItem">Telefon</p>
+                        </div>
+                        <div class="inputsRight">
+                            <div class="idOlustur">
+                                <input type="text" class="inputIDAdded" disabled="true"> </input>
+                    
+                            </div>
+                            <input type="text" class="inputAdAdded" id="clear">
+                            <input type="text" class="inputSoyadAdded"  id="clear">
+                            <input type="text" class="inputTcAdded"  id="clear">
+                            <input type="text" class="inputTelAdded"  id="clear">
+                        </div>
+                       
+                    </div>
+                    <div class="buttonDuzenle">
+                         <!-- <button type="reset">Reset</button>  -->
+                        <button class="btnDuzenle" type="reset">Düzenle</button>
+                    </div>
+                </form>
+            </div> 
+        </div>
+
+        
+        <div class="dataBase">
+            <div class="dataBaseNav">
+                <div class="title"> DATABASE </div>
+                <div class="deleteItem">
+                    <div class="deleteItemTop">
+                        <input type="text" class='inputDelete' placeholder="NO & ID ">
+                        <button class="deleteButton"> DELETE</button>
+                        <button class="deleteAllButton"> DELETE ALL</button>
+                    </div>
+                    <div class="deleteItemBottom">
+                        <p>Silmek istediğiniz verinin Numarasını ya da ID'sini giriniz.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar">
+                <ul class="navList">
+                    <li class="data">NO</li>
+                    <li class="data">ID</li>
+                    <li class="data">AD</li>
+                    <li class="data">SOYAD</li>
+                    <li class="data">TC</li>
+                    <li class="data">TELEFON</li>
+                </ul>
+            </div>
+            <div class="personelList">
+                 <ul class="parentList">
+                    <li class="data">1</li>
+                    <li class="data">1000000</li>
+                    <li class="data">Sefa</li>
+                    <li class="data">Öğük</li>
+                    <li class="data">466660613546</li>
+                    <li class="data">05377456853</li>
+
+                    <li class="dataIcon">
+                        <i class="far fa-edit duzenle"></i>
+                        <i class="far fa-trash-alt sil"></i>
+                    </li> 
+                </ul>
+               <ul class="parentList">
+                    <li class="data">2</li>
+                    <li class="data">1000001</li>
+                    <li class="data">Ahmet </li>
+                    <li class="data">Resul</li>
+                    <li class="data">634543313546</li>
+                    <li class="data">05377456853</li>
+                    <li class="dataIcon">
+                        <i class="far fa-edit duzenle"></i>
+                        <i class="far fa-trash-alt sil"></i>
+                    </li> 
+                </ul> 
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
